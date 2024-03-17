@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio html DIo</title>
+
+        <style>
+            h1
+            {
+                color:blue;
+            }
+
+            a
+            {
+               color:royalblue;
+               font-size:20px;
+               text-decoration: none;
+            }
+
+            a:hover{
+
+            text-decoration:underline;
+            color:brown;
+
+             }
+             
+          
+            li
+            { 
+               
+                font-weight:bolder;  
+                color:red;
+                
+            }
+         </style>
+
+    </head>
+    <body>
+ 
+            <h1 id="Inicio">Desafio DIO: Exemplo de matéria em um blog</h2>
+
+                <hr>
+                <br/>
+            <h2>Índice</h2>
+
+                    <ul>
+                        <li><a href="#HTML">Um pouco sobre HTML</a></li>
+                        <li><a href="#estrutura">Estrtura html</a></li>
+                        <li><a href="#tags"> Tags Básicas html</a></li>
+                    </ul>
+                    <br/>
+             <h3 id="HTML">HTML</h3>
+    
+
+                    <p> Criada por  Tim Berners-Lee <strong>HTML</strong> é uma linguagem de marcação de texto(<mark>HyperText Markup Language</mark>).</p>
+                    <p> Utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.</p>
+                    <p> HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo. </p>  
+                    <p> Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo (como áudio, vídeo, etc.), conectados por hiperligações (em inglês: hyperlink e link). </p>
+                    <p> O padrão é independente de outros padrões de processamento de texto em geral.</p>
+                    <br/>
+                    
+             <h3 id="estrutura">Estrutura do HTML</h3>
+
+
+                    <p>O documento HTML sempre inicia com o que chamamos de estrutura básica. Esta estrutura é quase que imutável.</p> 
+                    <p>Sempre será dessa forma e você sempre, sempre começará seu HTML começando por esse código.</p>  
+                    <p>Geralmente os editores como o Sublime Text já tem atalhos para iniciar os documentos HTMLs com essa estrutura, logo, você não precisa se preocupar em decorá-la, mas é bom que faça.</p>  
+                    <p>Veja abaixo como ela se inicia:</p> 
+
+                    <img src="https://lh3.googleusercontent.com/proxy/lgbiAOpGuGABj3U67VfTC_5C5TWQ0f8quCzgrYoZuYrRGXevzZpbHrVpYGsP92Tn1-S324Sr7Lk2kfhR0dHyDvqyOHxMAzOkjwC3s4S52XjwukSPuNom59BUXSd1YYaGTto" 
+                    alt="Estrutura html: Definição do documento (doctype), Cabeça (head),Corpo(body)"/>
+
+            <h4>Doctype - Definindo o documento</h4>
+
+                    <p>Uma coisa importante: SEMPRE deve existir o doctype, que é este código DOCTYPE html.</p>
+                    <p>O doctype não é uma tag HTML, mas uma instrução para o navegador e outros programas que podem ler seu site, que o código encontrado ali é um código HTML. Assim eles sabem o que fazer para mostrar seu site da melhor forma possível. Lembre-se: o doctype é OBRIGATÓRIO e deve ser sempre a PRIMEIRA LINHA do seu documento.</p>
+                    <br/> 
+            <h4>HEAD</h4>
+                    <P>Contém informações que não são transpostas visivelmente para o usuário/leitor do documento. São dados implícitos, de uso e controle do documento: vinculação com outros arquivos, aplicação de lógica de programação de scripts e metadados. 
+                    <P>Na prática, todo o conteúdo do cabeçalho fica delimitado entre a abertura e fechamento tag head.</P>
+                    <br/>
+
+             <h4>BODY</h4>
+                    <p>Trata-se do documento em si, ou seja, a informação legível para o usuário/leitor do documento. É todo e qualquer texto que se deseja apresentar, assim como toda e qualquer forma de mídia de saída (imagens, sons, miniaplicativos embutidos, conteúdo multimídia, etc).
+                    <P> Além disso, toda a apresentação de entrada de dados (formulários) também se aplica neste seção do documento. Na prática, o corpo do documento é delimitado pelo par de tag body</p></P>
+                    <p>Este é o preceito básico que deve estar muito bem claro para você: onde as marcações se aplicam, e quais são os resultados deste modelo. Por exemplo: se vocês deseja informar conteúdo textual para saída legível ao usuário do seu sistema web, esta marcação deverá obrigatoriamente estar no bloco do corpo da página. </p>	
+                    <p> Ainda: para definir qual o tipo de codificação da página (uma meta informação do documento), esta deve obrigatoriamente estar marcada no cabeçalho do mesmo documento.</p>
+                    <p>Dentro do elemento BODY sua estrutura de página terá os elementos semânticos da construção da sua página, onde serão declarados e identificados cabeçalhos, rodapé, conteúdo principal, etc.</p>
+                    <br/>
+
+</html>
+
+
+
+            <h3 id="tags">Tags básicas</h3>
+
+                    <P><blockquote>Tags de título possuem valor semântico, variando entre seis níveis hierárquicos. Para fins de otimização SEO é importante entender como funcionam, e fazer uma utilização adequada. Para definir títulos, utilizamos as tags:</blockquote> </P>
+                        <br/>
+                    <br/>
+                    <img src=https://ptgmedia.pearsoncmg.com/images/chap4_9780136702566/elementLinks/4-2-heading-scale-new_a_alt.jpg>
+
+
+            <h4>Tag P:</h4>
+                 <p><blockquote>Ser para pode cria um paragrafro.</blockquote></p>
+       
+
+            <h4>Tag mark:</h4>
+                     <p><blockquote>**Elemento HMTL <mark>mark</mark> **representa um trecho de destaque em um texto, por exemplo, uma sequência de texto marcado como referência, devido à sua relevância em um contexto particular.</blockquote>  
+                     <p><blockquote>Por Exemplo, pode ser utilizado em uma página que mostra os resultados de uma busca onde todas as instâncias da palavra pesquisadas receberam destaque.</blockquote></p>
+                  
+
+            <h4>Tag i:</h4>
+                       
+                     <p><blockquote>Tag deixa o texto italico.</blockquote></p>
+                    
+
+           <h4>Tag u:</h4>
+
+                    <p><blockquote>Deixa o texto sublinhado.</blockquote> </p>
+                    
+
+            <h4>Tag strong:</h4>
+
+                     <p><blockquote>deixa o texto em negrito.</blockquote> </p>
+                    
+
+            <h4>Tag lista ordernada e desordenada:</h4>
+
+                    <p><blockquote>elemento HTML <strong>li</strong>(ou a Lista dos Itens de um elemento HTML) é usado para representar um item que faz parte de uma lista. Este item deve estar contido em um elemento pai: uma lista ordenada ( <strong>ol</strong> ), uma lista desordenada (<strong>ul</strong> ) , ou um menu ( <strong>menu</strong>> (en-US)) e representa uma única entidade dessa lista.</blockquote> </p>
+                    
+
+             <h4>Tag a:</h4>
+                     
+                    <p><blockquote>Tag a, conhecida como tag de âncora, é responsável por vincular os demais documentos que o nosso HTML possui, links internos e externos. Para conseguirmos declarar essa tag, devemos incluir o atributo href e uma frase ou palavra dentro da tag a.</blockquote> </p>
+                    
+
+              <h4>Tag hr:</h4>
+
+                     <p><blockquote> Tag hr cria uma linha contínua.</blockquote></p>
+                    
+
+              <h4>Tag sub:</h4>
+
+                     <p> <blockquote>"Subscript Element" ou subscrito é utilizado escrever um texto com letras menores e com o alinhamento abaixo das que do resto do conteúdo.</blockquote></p>
+                     
+
+             <h4>Tag sup:</h4>
+                    <p><blockquote>Um trecho do texto pode ser formatado como subscrito ou sobrescrito usando-se as tags sub ou sup. Essas tags são muito úteis em fórmulas químicas e em algumas equações matemáticas. É só copiar e colar o código em seu conteúdo!</blockquote> </p>
+                    
+              
+                    <h4>Tag blockquote:</h4>
+
+                    <p> <blockquote> elemento blockquote é usado para indicar a citação de uma grande seção de texto de outra fonte . Usando o estilo HTML padrão da maioria dos navegadores da web, ele recuará as margens direita e esquerda tanto na exibição quanto na forma impressa, mas isso pode ser substituído por Cascading Style Sheets (CSS).</blockquote></p>
+                
+
+                  
+
+             <h4>Tag style:</h4>
+
+                       <P><blockquote><O elemento HTML <strong>style</strong> contém informações de estilo para um documento ou uma parte do documento. As informações de estilo específico estão contidas dentro deste elemento, geralmente no CSS.</blockquote></P>
+             <h4>Tag font:</h4>
+
+                       <P><blockquote>A tag font é usada para alterar a cor, tamanho e estilo de um texto e foi usada em HTML4</blockquote></P>
+
+             <h4>Tag del:</h4>
+                       <P><blockquote> O elemento HTML <del>del</del> Elemento HTML de Texto Excluído representa uma parte do texto que foi excluída de um documento. Este elemento é (não necessariamente) renderizado pelos navegadores com uma linha entre o texto.</blockquote></P>
+                       
+                       
+             <h4>Tag abbr</h4>
+                       <p>Tag abbr cria uma  <abbr>abreviação</abbr></p>
+                            
+                 
+                       <hr>
+
+ <h2>Referências</h2>
+                   
+
+<h3> <a href="https://pt.wikipedia.org/wiki/HTML">Wikipedia</a></h3>
+<h3> <a href="https://www.w3schools.com/html/default.asp">w3schools</a></h3>
+<p><a href="#Inicio"><small>Iniciopagina</small> </a></p>
+
+     </body>
+</html>

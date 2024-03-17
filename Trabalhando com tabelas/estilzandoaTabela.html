@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabela</title>
+    <style>
+
+table thead th{
+    background-color:black;
+    color:white;
+   
+}
+
+table tfoot td{
+
+    background-color:aqua;
+}
+    table tbody tr:nth-child(even){
+
+        background-color:#f1f1f1;
+
+
+    }
+
+    table tbody tr:hover{
+
+        background-color:blueviolet;
+        cursor: pointer;
+    
+    }
+
+
+table{
+
+    box-shadow: 10px 10px 0px 12px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 0px 12px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 0px 12px rgba(0,0,0,0.75);
+    border:dotted 1px black;
+}
+    </style>
+    
+    
+    <table width="230px"  align="center" cellspacing="10" cellpadding="5 "> 
+        <caption>Tabela de alunos</caption>
+    
+     <thead>
+        <tr>
+            <th colspan="2">Minha tabela </th>
+        </tr>
+     <tr>
+        <th>Nome </th>
+        <th>Idade </th>
+    </tr>
+    </thead>
+   
+    <tbody>
+
+                <td> Antonio Welder</td>
+                <td>36 </td>
+            </tr>
+
+            <tr>
+
+                <td> Fabiola</td>
+                <td>27 </td>
+            </tr>
+            <tr>
+
+                <td> Naria</td>
+                <td>38 </td>
+            </tr>
+            <tr>
+
+                <td> Wesley</td>
+                <td>31</td>
+            </tr>
+            <tr>
+
+                <td> Mateus</td>
+                <td>21</td>
+            </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+
+            <td> total</td>
+            <td>50</td>
+        </tr>
+    </tfoot>
+    </table>
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
